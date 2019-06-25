@@ -2,7 +2,7 @@ image: Visual Studio 2019
 
 environment:
   
-  matrix:
+matrix:
   - solution_path: EmptyProject/EmptyProject.sln
   
 before_build:
